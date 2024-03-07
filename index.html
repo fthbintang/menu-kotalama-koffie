@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Menu - Kota Lama Koffie</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+            <div class="row gx-0 align-items-center" style="height: 45px;">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <a href="https://maps.app.goo.gl/feHsedKERSntd9M49" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
+                        <a href="#" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>08115063777</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <a href="https://www.facebook.com/kotalamakoffie/" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@kotalamakoffie" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/kotalama.koffie/" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <img src="img/logo.jpg" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="#home" class="nav-item nav-link active smooth-control">Home</a>
+                        <a href="#kopi-susu" class="nav-item nav-link smooth-control">Kopi Susu</a>
+                        <a href="#kopi-hitam" class="nav-item nav-link smooth-control">Kopi Hitam</a>
+                        <a href="#other-drink" class="nav-item nav-link smooth-control">Other Drink</a>
+                        <a href="#tea" class="nav-item nav-link smooth-control">Tea</a>
+                        <a href="#fresh" class="nav-item nav-link smooth-control">Fresh</a>
+                    </div>
+                </div>
+            </nav>
+
+
+            <!-- Carousel Start -->
+            <div class="header-carousel owl-carousel" id="home">
+                <div class="header-carousel-item">
+                    <img src="img/carousel-3.png" class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="carousel-caption-content p-3">
+                            <h5 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Daftar Menu</h5>
+                            <h1 class="display-1 text-capitalize text-white mb-4">Kota Lama Koffie</h1>
+                            <p class="mb-5 fs-5">Good Coffee for Happy Peoples 
+                            </p>
+                            <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Menu</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-carousel-item">
+                    <img src="img/carousel-4.png" class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="carousel-caption-content p-3">
+                            <h5 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Daftar Menu</h5>
+                            <h1 class="display-1 text-capitalize text-white mb-4">Kota Lama Koffie</h1>
+                            <p class="mb-5 fs-5 animated slideInDown">Good Coffee for Happy Peoples, 
+                            </p>
+                            <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Menu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!------------------------------------------------------------- KOPI SUSU ---------------------------------------------------------->
+
+        <!-- Services Start -->
+        <div class="container-fluid service py-5" id="kopi-susu">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                    <h1 class="display-3 mb-4">Kopi Susu</h1>
+                    <p class="mb-0">Nikmati kesegaran dan keseimbangan cita rasa antara kopi yang kaya dengan kelembutan susu segar. Segera temukan pengalaman kopi yang memikat dengan setiap tegukan kopi susu kami.</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/kopi-tetek.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Kopi Tetek (Ice/Hot)</h5>
+                                    <p class="mb-4">Price: 18K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/menu/coffee-palm.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Kota Lama Coffee Palm</h5>
+                                    <p class="mb-4">Price: 25K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/menu/cheese-cake-coffee.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Cheese Cake Coffee</h5>
+                                    <p class="mb-4">Price: 25K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/menu/kopi-gula-aren.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h6 class="mb-4">Ice Sweet Caramel Latte</h6>
+                                    <p class="mb-4">Price: 25K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/menu/ice-hazelnut-latte.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Ice Hazelnut Latte</h5>
+                                    <p class="mb-4">Price: 25K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/menu/bombon.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Bombon</h5>
+                                    <p class="mb-4">Price: 18K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/menu/kopi-susu-kampung.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Kopi Susu Kampung</h5>
+                                    <p class="mb-4">Price: 15K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/menu/vietnam-drip.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Vietnam Drip</h5>
+                                    <p class="mb-4">Price: 20K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/menu/cafe-latte.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Cafe Latte</h5>
+                                    <p class="mb-4">Price: 20K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/menu/sweet-moment.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Sweet Moment</h5>
+                                    <p class="mb-4">Price: 28K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/menu/kopi-butter.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Kopi Butter</h5>
+                                    <p class="mb-4">Price: 20K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!-------------------------------------------------------------- KOPI HITAM ----------------------------------------------------------->
+        
+        <!-- Services Start -->
+        <div class="container-fluid service py-5" id="kopi-hitam">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                    <h1 class="display-3 mb-4">Kopi Hitam</h1>
+                    <p class="mb-0">Jelajahi kedalaman dan kekayaan cita rasa kopi murni dalam setiap tegukan kopi hitam kami. Rasakan aroma yang menggoda dan kenikmatan dari kopi tanpa campuran, untuk pencinta kopi sejati.</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/espresso.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Espresso</h5>
+                                    <p class="mb-4">Price: 15K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/americano.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Americano</h5>
+                                    <p class="mb-4">Price: 20K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/kopi-gula-aren.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Long Black</h5>
+                                    <p class="mb-4">Price: 20K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/manual-brew.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Manual Brew</h5>
+                                    <p class="mb-4">Price: 25K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/tropical-ice-coffee.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Tropical Ice Coffee</h5>
+                                    <p class="mb-4">Price: 25K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/tubruk-robusta.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Tubruk Robusta</h5>
+                                    <p class="mb-4">Price: 13K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/tubruk-arabica.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Tubruk Arabica</h5>
+                                    <p class="mb-4">Price: 18K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/strong-berry.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Strong Berry Coffee</h5>
+                                    <p class="mb-4">Price: 25K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!------------------------------------------------------------- OTHER DRINK ------------------------------------------------------------>
+        
+        <!-- Services Start -->
+        <div class="container-fluid service py-5" id="other-drink">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                    <h1 class="display-3 mb-4">Other Drink</h1>
+                    <p class="mb-0">Tidak hanya kopi, kami juga menawarkan berbagai minuman lain yang segar dan menggugah selera. Temukan pilihan minuman non-kopi yang menyegarkan dan memikat hati Anda</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/chocolate.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Chocolate Hot/Ice</h5>
+                                    <p class="mb-4">Price: 20K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/ice-mint-chocolate.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Ice Mint Chocolate</h5>
+                                    <p class="mb-4">Price: 25K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/red-velvet.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Red Velvet</h5>
+                                    <p class="mb-4">Price: 25K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/matcha.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Matcha Hot/Ice</h5>
+                                    <p class="mb-4">Price: 20K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/ice-mint-matcha.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Ice Mint Matcha</h5>
+                                    <p class="mb-4">Price: 25K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/milk.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Milk</h5>
+                                    <p class="mb-4">Price: 13K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/milk-tea.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Milk Tea</h5>
+                                    <p class="mb-4">Price: 15K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/milk-mint.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Milk Mint</h5>
+                                    <p class="mb-4">Price: 15K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/strawberry-milk.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Strawberry Milk</h5>
+                                    <p class="mb-4">Price: 15K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/ice-coffee-regal.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Ice Milk Kahlua Regal</h5>
+                                    <p class="mb-4">Price: 25K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!----------------------------------------------------------------- TEA ------------------------------------------------------------------>
+        
+        <!-- Services Start -->
+        <div class="container-fluid service py-5" id="tea">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                    <h1 class="display-3 mb-4">Tea</h1>
+                    <p class="mb-0">Merasakan kedamaian dalam secangkir teh hangat yang menyegarkan. Nikmati kesejukan dan kenikmatan dari berbagai macam teh pilihan kami, yang membawa Anda pada perjalanan rasa yang menggugah selera.</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/java-hot-tea.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Java Hot Tea Hot/Ice</h5>
+                                    <p class="mb-4">Price: 10K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/java-mint-tea.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Java Mint Tea</h5>
+                                    <p class="mb-4">Price: 15K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/lychee-tea.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Lychee Tea</h5>
+                                    <p class="mb-4">Price: 15K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/lemon-tea.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Lemon Tea</h5>
+                                    <p class="mb-4">Price: 15K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!---------------------------------------------------------------- FRESH ------------------------------------------------------------------->
+        
+        <!-- Services Start -->
+        <div class="container-fluid service py-5" id="fresh">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                    <h1 class="display-3 mb-4">Fresh</h1>
+                    <p class="mb-0">Dapatkan kesegaran alami dari minuman segar kami, yang dibuat dengan menggunakan bahan-bahan berkualitas. Menyegarkan, sehat, dan lezat - semuanya dalam satu gelas minuman segar dari kami.</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/butterfly-pea-tea.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Butterfly Pea Tea</h5>
+                                    <p class="mb-4">Price: 20K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded">
+                            <div class="service-img rounded-top">
+                                <img src="img/menu/strawberry-sunrise.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Strawberry Sunrise</h5>
+                                    <p class="mb-4">Price: 20K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row justify-content-center g-5"> <!-- Menggunakan justify-content-center untuk memusatkan baris -->
+                    <div class="col-md-12 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column align-items-center"> <!-- Menggunakan align-items-center untuk memusatkan item secara vertikal -->
+                            <h2 class="text-white mb-4" style="font-size: 1.5rem;"><i></i>Social Media</h2> <!-- Menyesuaikan ukuran teks menggunakan properti style -->
+                            <div class="d-flex justify-content-center">
+                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.facebook.com/kotalamakoffie/" style="font-size: 2rem; width: 3.5rem; height: 3.5rem;"><i class="fab fa-facebook-f" style="font-size: 1.5rem;"></i></a> <!-- Menyesuaikan ukuran circle menggunakan properti style -->
+                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.instagram.com/kotalama.koffie/" style="font-size: 2rem; width: 3.5rem; height: 3.5rem;"><i class="fab fa-instagram" style="font-size: 1.5rem;"></i></a> <!-- Menyesuaikan ukuran circle menggunakan properti style -->
+                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.tiktok.com/@kotalamakoffie" style="font-size: 2rem; width: 3.5rem; height: 3.5rem;"><i class="fab fa-tiktok" style="font-size: 1.5rem;"></i></a> <!-- Menyesuaikan ukuran circle menggunakan properti style -->
+                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://wa.me/6282351665558?text=Halo%20👋,%20saya%20tertarik%20untuk%20memesan%20kopi%20dari%20anda.%20Apakah%20saya%20bisa%20mendapatkan%20informasi%20lebih%20lanjut%20tentang%20produk%20dan%20cara%20pemesanan%20?%20☕️🌱" style="font-size: 2rem; width: 3.5rem; height: 3.5rem;"><i class="fab fa-whatsapp" style="font-size: 1.5rem;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Footer End -->
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-white"><a href="index.html"><i class="fas fa-copyright text-light me-2"></i>Kota Lama Koffie</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-white">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#index" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+        <!-- Smooth Control & Nav Link Active -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            // Fungsi untuk menambahkan kelas "active" pada tautan navbar saat halaman di-scroll
+            $(window).scroll(function() {
+                var jarakGulir = $(window).scrollTop();
+                // Loop melalui setiap bagian untuk memeriksa apakah bagian tersebut terlihat
+                $('.service').each(function(i) {
+                    if ($(this).position().top <= jarakGulir + 100 && $(this).position().top + $(this).outerHeight() > jarakGulir) {
+                        // Jika bagian terlihat, tandai tautan navbar yang sesuai sebagai aktif
+                        $('.navbar-nav .nav-link.active').removeClass('active');
+                        $('.navbar-nav .nav-link').eq(i+1).addClass('active'); // Dimulai dari indeks 1 karena tautan pertama adalah untuk "Home"
+                    }
+                });
+                // Tambahkan kelas "active" pada tautan navbar "Home" saat pengguna berada di carousel pertama
+                if ($('#home').position().top <= jarakGulir + 100 && $('#home').position().top + $('#home').outerHeight() > jarakGulir) {
+                    $('.navbar-nav .nav-link.active').removeClass('active');
+                    $('.navbar-nav .nav-link[href="#home"]').addClass('active');
+                }
+            }).scroll();
+        });
+        </script>
+        
+    </body>
+
+</html>
